@@ -161,7 +161,6 @@ const TeacherListPage = async ({
               <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
             {/* role admin*/}
-            {/* role admin*/}
             {role === "admin" && (
               <FormContainer table="teacher" type="create" />
             )}
